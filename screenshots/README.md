@@ -1,33 +1,18 @@
 # Screenshots
 
-Add your evidence screenshots here, named in order so they are easy to reference.
+Evidence that each lab requirement was met.
 
-## Requirement evidence
+| File | What it shows | Requirement |
+|---|---|---|
+| [`01_virtualbox_version.png`](01_virtualbox_version.png) | Help > About VirtualBox (7.2.22) | Latest VirtualBox |
+| [`02_nat_network.png`](02_nat_network.png) | NAT Networks tab: `NatNetwork`, 10.0.0.0/24, DHCP enabled | NAT Network |
+| [`03_kali_network_settings.png`](03_kali_network_settings.png) | Kali Settings > Network > Adapter 1 attached to `NatNetwork` | VM on the NAT Network |
+| [`04_clipboard_dragdrop.png`](04_clipboard_dragdrop.png) | Shared Clipboard and Drag'n'Drop set to Bidirectional | Clipboard and drag-and-drop |
+| [`05_shared_folders.png`](05_shared_folders.png) | Host Downloads folder shared with Auto-mount | Shared folder |
+| [`06_kali_desktop.png`](06_kali_desktop.png) | Kali Linux running as a VM | Kali Linux installed |
+| [`07_kali_ipv4_settings.png`](07_kali_ipv4_settings.png) | IPv4 Settings: Manual, 10.0.0.2/24, gateway 10.0.0.1 | Static IP configuration |
+| [`08_ip_a.png`](08_ip_a.png) | `ip a` showing `inet 10.0.0.2/24` on `eth0` | Kali IP 10.0.0.2/24 |
+| [`09_ping_tests.png`](09_ping_tests.png) | Ping to the gateway and to google.com, 0% packet loss | Full internet access |
+| [`10_snapshot.png`](10_snapshot.png) | Snapshots view with the clean baseline | Snapshot |
 
-| File name | What it shows |
-|---|---|
-| `01_virtualbox_version.png` | Help > About VirtualBox (7.2.22) |
-| `02_nat_network.png` | NAT Networks tab: NatNetwork, 10.0.0.0/24, DHCP enabled |
-| `03_kali_network_settings.png` | Kali Settings > Network > Adapter 1 |
-| `04_clipboard_dragdrop.png` | Settings > General > Advanced, both Bidirectional |
-| `05_shared_folders.png` | Settings > Shared Folders, Downloads auto-mounted |
-| `06_kali_desktop.png` | Kali running |
-| `07_kali_ipv4_settings.png` | Edit Connections > IPv4 Settings (Manual, 10.0.0.2/24) |
-| `08_ip_a.png` | `ip a` showing 10.0.0.2/24 |
-| `09_ping_tests.png` | `ping 10.0.0.1` and `ping google.com` |
-| `10_shared_folder_test.png` | `ls /media/sf_Downloads` |
-| `11_snapshot.png` | Snapshots view |
-
-## Troubleshooting evidence
-
-| File name | What it shows |
-|---|---|
-| `t1_iso_wizard.png` | New VM wizard asking for an ISO |
-| `t2_same_uuid_error.png` | "Can't open machine... same UUID" |
-| `t3_save_settings_error.png` | "Failed to save settings" with Details (VERR_PATH_NOT_FOUND) |
-| `t4_driver_name_clash.png` | "Driver name clash" with the Aborted state |
-| `t4_invalid_settings_usb.png` | USB page with the "Invalid settings detected" tooltip |
-| `t4_extension_pack_version.png` | Extensions window showing 7.2.4 |
-| `t5_dad_fix.png` | nmcli commands and `ip a` after the fix |
-
-Tips: capture the whole window, keep error codes visible, and include the clock where possible.
+The troubleshooting steps and error details are written up in [`../docs/troubleshooting.md`](../docs/troubleshooting.md).
