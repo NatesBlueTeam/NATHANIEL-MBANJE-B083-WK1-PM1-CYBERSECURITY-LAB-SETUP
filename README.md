@@ -79,7 +79,7 @@ bash scripts/verify-lab.sh
 
 ## Author
 
-Nates, BCYSE II, Institute of Accountancy Arusha (IAA). Focus: Digital Forensics and Incident Response (DFIR).
+Nates, BCYSE III, Institute of Accountancy Arusha (IAA). Focus: Digital Forensics and Incident Response (DFIR).
 
 ## License
 
